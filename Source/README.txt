@@ -1,0 +1,1 @@
+There are some small differences in UI in source between Windows and Linux version.

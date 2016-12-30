@@ -1,0 +1,414 @@
+object Form1: TForm1
+  Left = 1598
+  Height = 397
+  Top = 436
+  Width = 443
+  BorderStyle = bsSingle
+  Caption = 'Dartcounter'
+  ClientHeight = 397
+  ClientWidth = 443
+  Color = clHotLight
+  LCLVersion = '1.0.10.0'
+  object Shape2: TShape
+    Left = 232
+    Height = 240
+    Top = 120
+    Width = 200
+    Brush.Color = clBlack
+  end
+  object Shape1: TShape
+    Left = 16
+    Height = 240
+    Top = 120
+    Width = 200
+    Brush.Color = clBlack
+  end
+  object Edit1: TEdit
+    Left = 98
+    Height = 27
+    Top = 224
+    Width = 110
+    TabOrder = 0
+    Text = 'Score'
+  end
+  object Label1: TLabel
+    Left = 28
+    Height = 18
+    Top = 128
+    Width = 59
+    Caption = 'Speler 1:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 28
+    Height = 18
+    Top = 224
+    Width = 54
+    Caption = 'Score 1:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 28
+    Height = 18
+    Top = 256
+    Width = 54
+    Caption = 'Score 2:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 98
+    Height = 27
+    Top = 256
+    Width = 109
+    TabOrder = 1
+    Text = 'Score'
+  end
+  object Label4: TLabel
+    Left = 28
+    Height = 18
+    Top = 287
+    Width = 54
+    Caption = 'Score 3:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 98
+    Height = 27
+    Top = 287
+    Width = 110
+    TabOrder = 2
+    Text = 'Score'
+  end
+  object Label5: TLabel
+    Left = 240
+    Height = 18
+    Top = 128
+    Width = 59
+    Caption = 'Speler 2:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 240
+    Height = 18
+    Top = 224
+    Width = 54
+    Caption = 'Score 1:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 240
+    Height = 18
+    Top = 256
+    Width = 54
+    Caption = 'Score 2:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 240
+    Height = 18
+    Top = 287
+    Width = 54
+    Caption = 'Score 3:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit4: TEdit
+    Left = 312
+    Height = 27
+    Top = 224
+    Width = 110
+    TabOrder = 4
+    Text = 'Score'
+  end
+  object Edit5: TEdit
+    Left = 312
+    Height = 27
+    Top = 256
+    Width = 110
+    TabOrder = 5
+    Text = 'Score'
+  end
+  object Edit6: TEdit
+    Left = 312
+    Height = 27
+    Top = 287
+    Width = 110
+    TabOrder = 6
+    Text = 'Score'
+  end
+  object Button1: TButton
+    Left = 64
+    Height = 20
+    Top = 328
+    Width = 100
+    Caption = 'Klik startknop'
+    Enabled = False
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 288
+    Height = 20
+    Top = 328
+    Width = 100
+    Caption = 'Klik startknop'
+    Enabled = False
+    OnClick = Button2Click
+    TabOrder = 7
+  end
+  object Label10: TLabel
+    Left = 28
+    Height = 18
+    Top = 176
+    Width = 105
+    Caption = 'Aantal beurten:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 240
+    Height = 18
+    Top = 176
+    Width = 105
+    Caption = 'Aantal beurten:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 202
+    Height = 18
+    Top = 176
+    Width = 9
+    Caption = '0'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 415
+    Height = 18
+    Top = 176
+    Width = 9
+    Caption = '0'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 28
+    Height = 18
+    Top = 200
+    Width = 127
+    Caption = 'Nog weg te spelen:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 240
+    Height = 18
+    Top = 200
+    Width = 127
+    Caption = 'Nog weg te spelen:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Left = 202
+    Height = 18
+    Top = 200
+    Width = 9
+    Anchors = [akTop, akRight]
+    Caption = '0'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 415
+    Height = 18
+    Top = 200
+    Width = 9
+    Anchors = [akTop, akRight]
+    Caption = '0'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label18: TLabel
+    Left = 16
+    Height = 18
+    Top = 8
+    Width = 232
+    Caption = 'Geef aan hoe je het spel wil spelen:'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    Left = 168
+    Height = 25
+    Top = 32
+    Width = 136
+    DragMode = dmAutomatic
+    Font.Color = clYellow
+    ItemHeight = 0
+    ItemIndex = 1
+    Items.Strings = (
+      '301'
+      '501 (Standaard)'
+      '701'
+      '1001'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 8
+    Text = '501 (Standaard)'
+  end
+  object Button3: TButton
+    Left = 344
+    Height = 25
+    Top = 8
+    Width = 88
+    Caption = 'Start'
+    OnClick = Button3Click
+    TabOrder = 9
+  end
+  object Label9: TLabel
+    Cursor = crHandPoint
+    Left = 16
+    Height = 18
+    Top = 368
+    Width = 72
+    Caption = 'Dartregels'
+    Font.Color = clBlue
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label9Click
+  end
+  object Label19: TLabel
+    Left = 28
+    Height = 18
+    Top = 152
+    Width = 153
+    Caption = 'Aantal keer gewonnen:'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label20: TLabel
+    Left = 240
+    Height = 18
+    Top = 152
+    Width = 153
+    Caption = 'Aantal keer gewonnen:'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label21: TLabel
+    Left = 415
+    Height = 18
+    Top = 152
+    Width = 9
+    Caption = '0'
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label22: TLabel
+    Left = 202
+    Height = 18
+    Top = 152
+    Width = 9
+    Caption = '0'
+    Font.Color = clBlue
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label23: TLabel
+    Left = 16
+    Height = 18
+    Top = 32
+    Width = 136
+    Caption = 'Hoeveel weg spelen:'
+    ParentColor = False
+  end
+  object Label24: TLabel
+    Left = 16
+    Height = 18
+    Top = 64
+    Width = 105
+    Caption = 'Hoeveel potjes:'
+    ParentColor = False
+  end
+  object ComboBox2: TComboBox
+    Left = 168
+    Height = 25
+    Top = 64
+    Width = 136
+    DragMode = dmAutomatic
+    Font.Color = clYellow
+    ItemHeight = 0
+    ItemIndex = 4
+    Items.Strings = (
+      'Best of 1'
+      'Best of 3'
+      'Best of 5'
+      'Best of 9'
+      'Oneindig'
+    )
+    ParentFont = False
+    Style = csDropDownList
+    TabOrder = 10
+    Text = 'Oneindig'
+  end
+  object Label25: TLabel
+    Cursor = crHandPoint
+    Left = 98
+    Height = 18
+    Top = 368
+    Width = 48
+    Caption = 'GitHub'
+    Font.Color = clBlue
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label25Click
+  end
+  object Label26: TLabel
+    Left = 224
+    Height = 18
+    Top = 368
+    Width = 206
+    Caption = 'Gemaakt door David Brinkman'
+    ParentColor = False
+  end
+  object Button4: TButton
+    Left = 344
+    Height = 25
+    Top = 40
+    Width = 88
+    Caption = 'Reset'
+    OnClick = Button4Click
+    TabOrder = 11
+  end
+end
